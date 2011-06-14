@@ -1,12 +1,19 @@
 {
-   "name": "Japanese Test",
-   "version": "1.0.0",
-   "permissions": ["contextMenus", "notifications"],
-   "background_page": "background.html",
-   "options_page":"options.html",
-   "icons": {
-    "16": "images/icon-16.png",
-    "48": "images/icon-48.png",
-    "128": "images/icon-128.png"
-   }
+	"name": "Japanese Test",
+	"version": "1.0.0",
+	"permissions": ["contextMenus", "notifications"],
+	"background_page": "background.html",
+	"options_page":"options.html",
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["content_scripts.js"]
+		}
+	],
+	"icons": {
+		"16": "images/icon-16.png",
+		"48": "images/icon-48.png",
+		"128": "images/icon-128.png"
+	},
+	"default_locale": "ja"
 }

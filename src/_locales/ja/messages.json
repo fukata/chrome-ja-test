@@ -1,0 +1,15 @@
+{
+	"context_menu_title": {
+		"message": "6.日本語テスト",
+		"description": ""
+	},
+	"notification_title": {
+		"message": "7.日本語テスト",
+		"description": ""
+	},
+    "notification_body": {
+        "message": "8.日本語テスト",
+        "description": ""
+    }
+
+}
